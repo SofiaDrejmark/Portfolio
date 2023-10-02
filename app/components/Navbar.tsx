@@ -10,7 +10,7 @@ export default function Navbar() {
   React.useEffect(() => {
     const timeout = setTimeout(() => {
       controls.start({ x: 0, opacity: 1 });
-    }, 1000);
+    }, 2000);
     return () => {
       clearTimeout(timeout);
     };
