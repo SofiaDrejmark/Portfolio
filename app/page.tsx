@@ -61,7 +61,7 @@ export default function Home() {
       <section className="w-full  flex flex-col justify-center items-center py-20">
         <Link
           href="/projects"
-          className={`${ubuntu.className} hover:text-[#42d0ab] mb-10 flex justify-center items-center text-xl  border border-[#ffffff] rounded-lg px-4 py-8`}
+          className={`${ubuntu.className} hover:text-[#42d0ab] text-[#6533cb] mb-10 flex justify-center items-center text-xl  border border-[#ffffff] rounded-lg px-4 py-8`}
         >
           <p>Check out my recent projects!</p>
         </Link>
