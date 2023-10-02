@@ -9,8 +9,8 @@ export default function Projects() {
   return (
     <div className="h-full h-full">
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-        <section className=" h-[300px] w-full flex justify-end items-center flex-col">
-          <p className="pt-20 w-[60%] pb-10 text-center text-xl ">
+        <section className="mt-20 h-[300px] w-full flex justify-end items-center flex-col">
+          <p className=" w-[60%] pb-10 text-center text-xl ">
             Here, I showcase a collection of projects that I've worked on
             recently, giving you a glimpse into my journey as a frontend
             developer. More projects are coming soon!
