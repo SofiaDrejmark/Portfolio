@@ -3,7 +3,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { ubuntu } from "@/app/layout";
 import Link from "next/link";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/Ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Contact() {
   const [state, handleSubmit] = useForm("myContactForm");
 
