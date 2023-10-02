@@ -12,8 +12,8 @@ export default function About() {
         <div className="bg-[#6533cb] rounded-full h-[135px] w-[135px] flex justify-center items-center shadow-lg">
           <img
             alt="profile_picture"
-            src="/bildbild.jpg"
-            className=" rounded-full h-32 w-32 object-cover shadow-lg"
+            src="/bilden.jpg"
+            className="opacity-90 hover:opacity-75 grayscale rounded-full h-32 w-32 object-cover shadow-lg"
           />
         </div>
       </motion.section>

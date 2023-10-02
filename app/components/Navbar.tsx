@@ -5,10 +5,8 @@ import { motion, useAnimation } from "framer-motion";
 import { ubuntu } from "../layout";
 
 export default function Navbar() {
-
   const controls = useAnimation();
 
-  
   React.useEffect(() => {
     const timeout = setTimeout(() => {
       controls.start({ x: 0, opacity: 1 });
@@ -18,11 +16,9 @@ export default function Navbar() {
     };
   }, [controls]);
 
-
-
   return (
-    <header className="w-full h-[80px] bg-[#ffffff] fixed border-b shadow-sm">
-           <section className="h-full flex flex-row justify-between">
+    <header className="z-10 w-full h-[80px] bg-[#ffffff] fixed border-b shadow-sm">
+      <section className="h-full flex flex-row justify-between">
         <Link
           className={`${ubuntu.className} hover:text-[#42d0ab] text-[#6533cb] font-medium pt-10 pl-10 sm:pl-20 text-base sm:text-2xl `}
           href="/"
@@ -43,6 +39,6 @@ export default function Navbar() {
           </Link>
         </motion.div>
       </section>
-          </header>
+    </header>
   );
 }

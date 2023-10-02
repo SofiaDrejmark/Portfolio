@@ -62,8 +62,6 @@ export const projectsData = [
     shortDescription:
       "This is a mobile app that offers various functionalities, including user authentication (login and sign-up), real-time chat, shopping lists, and to-do lists.",
     descriptions: [
-      "For this project I decided to focus on learning and working with React Native, Expo, and Firestore Firebase. I aimed to create a mobile application with specific features, such as user login and sign-up, real-time chat, shopping lists, and to-do lists.",
-
       "The main goal of this project was to gain hands-on experience in mobile app development using React Native. I found Expo to be a helpful development environment, and Firestore Firebase was essential for managing real-time data and user authentication.",
 
       "In the application, users could create accounts securely and log in to access personalized features. One of the highlights was the real-time chat feature, allowing users to have instant conversations and exchange messages with others. Additionally, users could create and manage shopping lists, add items, mark them as purchased, and share the lists with your family. ",

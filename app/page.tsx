@@ -39,8 +39,8 @@ export default function Home() {
             {" "}
             <img
               alt="profile_picture"
-              src="/bildbild.jpg"
-              className="hover:opacity-75 rounded-full h-32 w-32 object-cover shadow-lg"
+              src="/bilden.jpg"
+              className="opacity-90 hover:opacity-75 rounded-full h-32 w-32 grayscale object-cover shadow-lg"
             />
           </Link>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
           {projectsData.map((project) => (
             <li
               key={project.id}
-              className="hover:opacity-75  shadow-lg border border-b-8 border-b-[#42d0ab] rounded-2xl flex flex-col bg-[#fdfcfc]"
+              className="hover:opacity-75 z-2 shadow-lg border border-b-8 border-b-[#42d0ab] rounded-2xl flex flex-col bg-[#fdfcfc]"
             >
               <Link href={`/projects/${project.link}`}>
                 <img
