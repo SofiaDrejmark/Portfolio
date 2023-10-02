@@ -3,7 +3,7 @@ import { projectsData } from "../components/ProjectData";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ubuntu } from "@/app/layout";
-import { AiFillGithub, AiOutlineClose } from "react-icons/Ai";
+import { AiFillGithub, AiOutlineClose } from "react-icons/ai";
 import React from "react";
 
 interface ProjectProps {
