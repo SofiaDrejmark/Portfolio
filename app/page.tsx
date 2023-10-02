@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div className="w-full h-full  bg-[#ffffff]">
-      <section className="flex flex-col pt-[80px] justify-center items-center mt-20">
+      <section className="flex flex-col pt-[80px] justify-center items-center mt-20 px-4">
         <p className="text-xl text-gray-600 text-center font-medium">
           Hi, my name is Sofia. <br /> I'm a
           <span
