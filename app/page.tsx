@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
+
 import Link from "next/link";
 import { ubuntu } from "@/app/layout";
 import { projectsData } from "./(pages)/projects/components/ProjectData";
